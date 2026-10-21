@@ -19,7 +19,6 @@ IMPORTANT DATA LIMITATIONS:
 
 UPDATE NOTES (21 OCT 2026)
 - Search/Wards/Verify project pages rebuilt.
-- The 4 added pictures of road, borehole, drainage and clinic are AI-generated illustrative visuals, NOT documentary evidence of the named projects.
 - The project owner reports the listed records as Verified. This ZIP does not include evidence from a third-party certifier; no independent verification is claimed.
 - Some historical years and Tudun Makera ward assignment remain unspecified where source material did not establish them.
 - Do not use AI illustrations as proof of project completion.

@@ -9,8 +9,7 @@ window.LHD_PROJECTS = [
     "status": "Verified",
     "verification_source": "Reported by project owner",
     "description": "Verified road rehabilitation project record for Gwammaja ward.",
-    "image": "assets/project-photos/gwammaja-road-rehabilitation.jpg",
-    "illustration": true
+    "image": "assets/project-photos/gwammaja-road-rehabilitation.jpg"
   },
   {
     "id": "DALA-W01-2024-008",
@@ -32,8 +31,7 @@ window.LHD_PROJECTS = [
     "status": "Verified",
     "verification_source": "Reported by project owner",
     "description": "Verified water borehole project record for Gobirawa ward.",
-    "image": "assets/project-photos/gobirawa-water-borehole.jpg",
-    "illustration": true
+    "image": "assets/project-photos/gobirawa-water-borehole.jpg"
   },
   {
     "id": "DALA-W02-2025-011",
@@ -44,8 +42,7 @@ window.LHD_PROJECTS = [
     "status": "Verified",
     "verification_source": "Reported by project owner",
     "description": "Verified drainage construction project record for Adakawa ward.",
-    "image": "assets/project-photos/adakawa-drainage-construction.jpg",
-    "illustration": true
+    "image": "assets/project-photos/adakawa-drainage-construction.jpg"
   },
   {
     "id": "DALA-W04-2024-015",
@@ -56,8 +53,7 @@ window.LHD_PROJECTS = [
     "status": "Verified",
     "verification_source": "Reported by project owner",
     "description": "Verified health centre renovation project record for Kantudu ward.",
-    "image": "assets/project-photos/kantudu-health-centre-renovation.jpg",
-    "illustration": true
+    "image": "assets/project-photos/kantudu-health-centre-renovation.jpg"
   },
   {
     "id": "PHOTO-KOFAR-MAZUGAL",
