@@ -15,3 +15,12 @@ IMPORTANT DATA LIMITATIONS:
 - No real GIS boundaries or surveyed project coordinates were supplied; the ward selector is clearly labelled schematic, not a geographic map.
 - The original website's other static dashboard statistics are not independent verification of real project totals.
 - Dala ward names cross-checked against INEC Nigeria 2015 polling unit directory: https://www.inecnigeria.org/wp-content/uploads/2019/02/PU_Directory_Revised_January_2015_Kano.pdf
+
+
+UPDATE NOTES (21 OCT 2026)
+- Search/Wards/Verify project pages rebuilt.
+- The 4 added pictures of road, borehole, drainage and clinic are AI-generated illustrative visuals, NOT documentary evidence of the named projects.
+- The project owner reports the listed records as Verified. This ZIP does not include evidence from a third-party certifier; no independent verification is claimed.
+- Some historical years and Tudun Makera ward assignment remain unspecified where source material did not establish them.
+- Do not use AI illustrations as proof of project completion.
+- GitHub Pages: upload files from inside honlawan-main/ to your repository root.

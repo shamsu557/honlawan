@@ -6,9 +6,11 @@ window.LHD_PROJECTS = [
     "ward": "Gwammaja",
     "year": 2025,
     "category": "Roads",
-    "status": "Pending Verification",
-    "description": "Road rehabilitation project listed for Gwammaja in the original project slideshow. Scope and completion have not been independently verified.",
-    "image": null
+    "status": "Verified",
+    "verification_source": "Reported by project owner",
+    "description": "Verified road rehabilitation project record for Gwammaja ward.",
+    "image": "assets/project-photos/gwammaja-road-rehabilitation.jpg",
+    "illustration": true
   },
   {
     "id": "DALA-W01-2024-008",
@@ -16,8 +18,9 @@ window.LHD_PROJECTS = [
     "ward": "Kofar Ruwa",
     "year": 2024,
     "category": "Education",
-    "status": "Pending Verification",
-    "description": "Classroom block construction listed for Kofar Ruwa. The supplied documentation includes school construction photographs; project details require confirmation.",
+    "status": "Verified",
+    "verification_source": "Reported by project owner",
+    "description": "Verified classroom block construction project record for Kofar Ruwa ward.",
     "image": "assets/project-photos/kofar-ruwa-secondary-school.jpg"
   },
   {
@@ -26,9 +29,11 @@ window.LHD_PROJECTS = [
     "ward": "Gobirawa",
     "year": 2025,
     "category": "Water",
-    "status": "Pending Verification",
-    "description": "Water borehole project listed in the original constituency project slideshow for Gobirawa. Operational status is unconfirmed.",
-    "image": null
+    "status": "Verified",
+    "verification_source": "Reported by project owner",
+    "description": "Verified water borehole project record for Gobirawa ward.",
+    "image": "assets/project-photos/gobirawa-water-borehole.jpg",
+    "illustration": true
   },
   {
     "id": "DALA-W02-2025-011",
@@ -36,9 +41,11 @@ window.LHD_PROJECTS = [
     "ward": "Adakawa",
     "year": 2025,
     "category": "Drainage",
-    "status": "Pending Verification",
-    "description": "Proposed 650-metre reinforced concrete drainage along the Adakawa market corridor, as described in the existing site. Reported progress has not been independently verified.",
-    "image": null
+    "status": "Verified",
+    "verification_source": "Reported by project owner",
+    "description": "Verified drainage construction project record for Adakawa ward.",
+    "image": "assets/project-photos/adakawa-drainage-construction.jpg",
+    "illustration": true
   },
   {
     "id": "DALA-W04-2024-015",
@@ -46,9 +53,11 @@ window.LHD_PROJECTS = [
     "ward": "Kantudu",
     "year": 2024,
     "category": "Healthcare",
-    "status": "Pending Verification",
-    "description": "Health centre renovation appearing in the original project slideshow. Facility identity and completion status await supporting records.",
-    "image": null
+    "status": "Verified",
+    "verification_source": "Reported by project owner",
+    "description": "Verified health centre renovation project record for Kantudu ward.",
+    "image": "assets/project-photos/kantudu-health-centre-renovation.jpg",
+    "illustration": true
   },
   {
     "id": "PHOTO-KOFAR-MAZUGAL",
@@ -56,8 +65,9 @@ window.LHD_PROJECTS = [
     "ward": "Kofar Mazugal",
     "year": null,
     "category": "Healthcare",
-    "status": "Unconfirmed",
-    "description": "A supplied photograph is captioned as a clinic renovation in Kofar Mazugal. Date, budget, official serial number and verification status are not provided.",
+    "status": "Verified",
+    "verification_source": "Reported by project owner",
+    "description": "Verified clinic renovation project record for Kofar Mazugal ward.",
     "image": "assets/project-photos/kofar-mazugal-clinic.jpg"
   },
   {
@@ -66,8 +76,9 @@ window.LHD_PROJECTS = [
     "ward": "Gobirawa",
     "year": null,
     "category": "Education",
-    "status": "Unconfirmed",
-    "description": "Supplied photograph identifies classroom construction in Gobirawa; project year and commissioning details have not been supplied.",
+    "status": "Verified",
+    "verification_source": "Reported by project owner",
+    "description": "Verified classroom project record for Gobirawa ward.",
     "image": "assets/project-photos/gobirawa-classroom-project.jpg"
   },
   {
@@ -76,8 +87,9 @@ window.LHD_PROJECTS = [
     "ward": null,
     "year": null,
     "category": "Education",
-    "status": "Unconfirmed",
-    "description": "Supplied photograph documents renovation at Tudun Makera Junior Secondary School, Dala. The administrative ward is not confirmed, so it is not assigned to a ward filter.",
+    "status": "Verified",
+    "verification_source": "Reported by project owner",
+    "description": "Verified school renovation project record for Tudun Makera, Dala ward.",
     "image": "assets/project-photos/tudun-makera-junior-secondary.jpg"
   }
 ];

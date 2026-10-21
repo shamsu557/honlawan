@@ -25,18 +25,18 @@
         <a class="side-link" href="transparency.html"><span class="num">08</span><span>TRANSPARENCY</span></a>
         <a class="side-link active" href="verify-project.html"><span class="num">09</span><span>VERIFY PROJECT</span></a>
       </nav>
-      <div class="side-bottom">Official Transparency Portal<br/>Verified by Office of the Clerk</div>
+      <div class="side-bottom">Official Transparency Portal<br/>Constituency project information</div>
     </aside>
     <main class="portal-main">
       <header class="topbar">
         <div>
           <button class="mobile-toggle" type="button" onclick="document.body.classList.toggle('nav-open')">☰ Menu</button>
           <h1>Verify Project</h1>
-          <p>Check project records by name, serial number, ward, year, category, or status.</p>
+          <p>Search verified project records by name, serial number, ward, year, category, or status.</p>
         </div>
         <div class="topbar-badges">
-          <span class="badge">Pending Verification</span>
-          <span class="badge">Document Verified</span>
+          <span class="badge">Project Records</span>
+          <span class="badge">Project Registry</span>
           <span class="badge">1999–2026</span>
         </div>
       </header>
@@ -44,7 +44,7 @@
         <section class="panel soft" id="verify-project">
           <div class="overline">Verification registry</div>
           <h2>Find a project record</h2>
-          <p class="muted">This page now works like the Search page so users can verify a project record directly instead of landing on a blank screen.</p>
+          <p class="muted">Use the filters below to view verified project records in the constituency registry.</p>
           <form id="lhd-search-form">
             <div class="searchbar">
               <input class="lhd-control" id="lhd-query" type="search" placeholder="Enter serial number, project name, ward, or keyword..." aria-label="Search projects" />
@@ -61,23 +61,10 @@
           <div class="lhd-result-title" id="lhd-search-count" aria-live="polite"></div>
           <div class="lhd-project-grid" id="lhd-search-results"></div>
         </section>
-        <section class="panel">
-          <div class="overline">Verification request</div>
-          <h2>Submit a verification note</h2>
-          <p class="muted">This offline demo stores no data, but the form is included so the page is complete and no longer empty.</p>
-          <div class="notice">For a live website, connect this form to your email handler, Google Form, or backend script so verification requests are actually received.</div>
-          <form class="form-grid" onsubmit="event.preventDefault(); alert('Demo form only: connect this to your backend or email handler.');">
-            <input class="lhd-control" type="text" placeholder="Reporter name" />
-            <input class="lhd-control" type="text" placeholder="Phone or email" />
-            <input class="lhd-control full" type="text" placeholder="Project reference number" />
-            <textarea class="lhd-control full" placeholder="Write the verification note, correction, or observation"></textarea>
-            <div class="full"><button class="lhd-button" type="submit">Submit Verification Request</button></div>
-          </form>
-        </section>
-      </div>
+        </div>
       <footer class="page-footer">
-        <span>Verify Project page restored</span>
-        <span>The registry search now loads instead of a blank page</span>
+        <span>Verified project registry</span>
+        <span>Project record status based on supplied information</span>
       </footer>
     </main>
   </div>
