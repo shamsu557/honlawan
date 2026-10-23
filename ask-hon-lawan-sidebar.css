@@ -1,0 +1,14 @@
+
+:root{--lhd-green:#0a4a2e;--lhd-cream:#f8f7f2}
+html{scroll-behavior:smooth}body{padding-left:258px!important}body>.lhd-sidebar{box-sizing:border-box;position:fixed;left:0;top:0;bottom:0;width:258px;background:var(--lhd-green);color:#fff;z-index:10000;display:flex;flex-direction:column;border-right:1px solid #d0bb83;overflow-y:auto;font-family:Arial,sans-serif}
+.lhd-side-brand{padding:28px 18px 25px;display:flex;align-items:center;gap:11px;text-decoration:none;color:#fff!important;border-bottom:1px solid #ffffff30;font-size:13px;font-weight:700;line-height:1.35;letter-spacing:1.3px}.lhd-brand-mark{display:grid;place-items:center;background:#f8f7f2;color:#0a4a2e;font-family:Georgia,serif;font-size:17px;font-weight:900;min-width:51px;height:49px}.lhd-side-brand small{display:block;font-size:9px;margin-top:7px;color:#d2c7a9;font-weight:400;letter-spacing:1px}.lhd-side-label{font-size:10px;letter-spacing:2px;color:#adccba;padding:26px 24px 12px}.lhd-side-menu{display:flex;flex-direction:column;padding:0 10px;gap:4px}.lhd-side-link{display:flex;gap:14px;align-items:center;padding:13px 13px;color:#e5eee7;text-decoration:none;font-size:13px;letter-spacing:1px;text-transform:uppercase;border-left:3px solid transparent}.lhd-side-link:hover,.lhd-side-link.lhd-active{background:#ffffff19;color:white;border-left-color:#c8b17b}.lhd-icon{font-family:monospace;font-size:11px;color:#b0c7b7}.lhd-side-bottom{margin-top:auto;padding:25px 18px;font-size:9px;letter-spacing:1px;line-height:2;color:#bdd2c4}.lhd-mobile-trigger{display:none}.lhd-shade{display:none}
+
+/* Sidebar-only overrides for Ask Hon. Lawan, without changing question panels. */
+body{padding-left:258px!important;max-width:none!important}
+body>.lhd-sidebar{line-height:1.5}
+body>.lhd-sidebar .lhd-side-brand{font-size:13px;letter-spacing:1.3px}
+body>.lhd-sidebar .lhd-side-link{font-weight:400;line-height:1.5}
+body>main{max-width:1280px;width:100%;margin:0 auto;padding:30px clamp(16px,3vw,42px) 72px}
+body>.footer{margin-left:0}
+.lhd-mobile-trigger{display:none}.lhd-shade{display:none}
+@media(max-width:900px){body{padding-left:0!important;padding-top:54px!important}body>.lhd-sidebar{transform:translateX(-105%);transition:transform .25s ease;width:min(295px,85vw)}body.lhd-nav-open>.lhd-sidebar{transform:translateX(0)}.lhd-mobile-trigger{position:fixed;top:0;left:0;right:0;height:54px;z-index:9998;background:#0a4a2e;color:white;border:0;padding:0 18px;display:flex;align-items:center;gap:12px;font-family:monospace;letter-spacing:2px}.lhd-shade{position:fixed;inset:0;background:#0008;z-index:9999;display:none}body.lhd-nav-open>.lhd-shade{display:block}}
