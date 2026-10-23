@@ -1,88 +1,88 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Search | LHD Legislative Scorecard</title>
-  <link rel="stylesheet" href="portal-shared.css" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Search | LHD Legislative Scorecard</title>
+<link href="portal-shared.css" rel="stylesheet"/>
 </head>
 <body>
-  <div class="portal-shell">
-    <aside class="portal-sidebar">
-      <a class="brand" href="index.html">
-        <div class="brand-mark">LHD</div>
-        <div class="brand-text">LHD LEGISLATIVE<br/>SCORECARD<small>DALA · KANO · 1999–2026</small></div>
-      </a>
-      <div class="side-label">Portal Navigation</div>
-      <nav class="side-menu">
-        <a class="side-link" href="index.html"><span class="num">01</span><span>HOME</span></a>
-        <a class="side-link" href="scorecard.html"><span class="num">02</span><span>SCORECARD</span></a>
-        <a class="side-link" href="projects.html"><span class="num">03</span><span>PROJECTS</span></a>
-        <a class="side-link active" href="search.html"><span class="num">04</span><span>SEARCH</span></a>
-        <a class="side-link" href="wards.html"><span class="num">05</span><span>WARDS</span></a>
-        <a class="side-link" href="timeline.html"><span class="num">06</span><span>TIMELINE</span></a>
-        <a class="side-link" href="magazine.html"><span class="num">07</span><span>MAGAZINE</span></a>
-        <a class="side-link" href="transparency.html"><span class="num">08</span><span>TRANSPARENCY</span></a>
-        <a class="side-link" href="verify-project.html"><span class="num">09</span><span>VERIFY PROJECT</span></a>
-      </nav>
-      <div class="side-bottom">Official Transparency Portal<br/>Constituency project information</div>
-    </aside>
-    <main class="portal-main">
-      <header class="topbar">
-        <div>
-          <button class="mobile-toggle" type="button" onclick="document.body.classList.toggle('nav-open')">☰ Menu</button>
-          <h1>Project Search</h1>
-          <p>Search by project name, ward, year, category, status, or description keyword.</p>
-        </div>
-        <div class="topbar-badges">
-          <span class="badge">Dala LGA</span>
-          <span class="badge">Kano State</span>
-          <span class="badge">1999–2026</span>
-        </div>
-      </header>
-      <div class="page-wrap lhd-v2">
-        <section class="panel soft" id="search">
-          <div class="overline">Constituency project registry</div>
-          <h2>Search constituency projects</h2>
-          <p class="muted">All filters work together. Results below use the project records currently in the website package.</p>
-          <form id="lhd-search-form">
-            <div class="searchbar">
-              <input class="lhd-control" id="lhd-query" type="search" placeholder="Search project name, serial number, ward, keyword..." aria-label="Search projects" />
-              <button class="lhd-button" type="submit">Search Projects</button>
-              <button class="lhd-button secondary" id="lhd-clear" type="button">Clear</button>
-            </div>
-            <div class="lhd-filters">
-              <select class="lhd-control" id="lhd-search-year" aria-label="Filter by year"><option value="">All years 1999–2026</option></select>
-              <select class="lhd-control" id="lhd-search-ward" aria-label="Filter by ward"><option value="">All wards</option></select>
-              <select class="lhd-control" id="lhd-search-category" aria-label="Filter by category"><option value="">All categories</option></select>
-              <select class="lhd-control" id="lhd-search-status" aria-label="Filter by status"><option value="">All statuses</option></select>
-            </div>
-          </form>
-          <div class="lhd-result-title" id="lhd-search-count" aria-live="polite"></div>
-          <div class="lhd-project-grid" id="lhd-search-results"></div>
-        </section>
-
-        <section class="panel" id="lhd-map">
-          <div class="overline">Constituency map explorer</div>
-          <h2>Projects by ward and category</h2>
-          <p class="muted">Use the ward selector and category checkboxes below. Clicking a ward filters the projects for that ward.</p>
-          <div class="lhd-filters">
-            <select class="lhd-control" id="map-ward"><option value="">All wards</option></select>
-            <select class="lhd-control" id="map-year"><option value="">All years 1999–2026</option></select>
-          </div>
-          <div class="lhd-checks" id="map-categories"></div>
-          <div class="lhd-schematic" id="lhd-ward-schematic" aria-label="Interactive ward selector"></div>
-          <div class="lhd-result-title" id="lhd-map-count" aria-live="polite"></div>
-          <div class="lhd-project-grid" id="lhd-map-results"></div>
-        </section>
-      </div>
-      <footer class="page-footer">
-        <span>© 2025 LHD Legislative Scorecard • Built for institutional transparency</span>
-        <span>Project search and ward filters</span>
-      </footer>
-    </main>
-  </div>
-  <script src="project-data.js"></script>
-  <script src="explorer.js"></script>
+<div class="portal-shell">
+<aside class="portal-sidebar">
+<a class="brand" href="index.html">
+<div class="brand-mark">LHD</div>
+<div class="brand-text">LHD LEGISLATIVE<br/>SCORECARD<small>DALA · KANO · 1999–2026</small></div>
+</a>
+<div class="side-label">Portal Navigation</div>
+<nav class="side-menu">
+<a class="side-link" href="index.html"><span class="num">01</span><span>HOME</span></a>
+<a class="side-link" href="scorecard.html"><span class="num">02</span><span>SCORECARD</span></a>
+<a class="side-link" href="projects.html"><span class="num">03</span><span>PROJECTS</span></a>
+<a class="side-link active" href="search.html"><span class="num">04</span><span>SEARCH</span></a>
+<a class="side-link" href="wards.html"><span class="num">05</span><span>WARDS</span></a>
+<a class="side-link" href="empowerment.html"><span class="num">06</span><span>TIMELINE</span></a>
+<a class="side-link" href="magazine.html"><span class="num">07</span><span>MAGAZINE</span></a>
+<a class="side-link" href="transparency.html"><span class="num">08</span><span>TRANSPARENCY</span></a>
+<a class="side-link" href="verify-project.html"><span class="num">09</span><span>VERIFY PROJECT</span></a>
+</nav>
+<div class="side-bottom">Official Transparency Portal<br/>Constituency project information</div>
+</aside>
+<main class="portal-main">
+<header class="topbar">
+<div>
+<button class="mobile-toggle" onclick="document.body.classList.toggle('nav-open')" type="button">☰ Menu</button>
+<h1>Project Search</h1>
+<p>Search by project name, ward, year, category, status, or description keyword.</p>
+</div>
+<div class="topbar-badges">
+<span class="badge">Dala LGA</span>
+<span class="badge">Kano State</span>
+<span class="badge">1999–2026</span>
+</div>
+</header>
+<div class="page-wrap lhd-v2">
+<section class="panel soft" id="search">
+<div class="overline">Constituency project registry</div>
+<h2>Search constituency projects</h2>
+<p class="muted">All filters work together. Results below use the project records currently in the website package.</p>
+<form id="lhd-search-form">
+<div class="searchbar">
+<input aria-label="Search projects" class="lhd-control" id="lhd-query" placeholder="Search project name, serial number, ward, keyword..." type="search"/>
+<button class="lhd-button" type="submit">Search Projects</button>
+<button class="lhd-button secondary" id="lhd-clear" type="button">Clear</button>
+</div>
+<div class="lhd-filters">
+<select aria-label="Filter by year" class="lhd-control" id="lhd-search-year"><option value="">All years 1999–2026</option></select>
+<select aria-label="Filter by ward" class="lhd-control" id="lhd-search-ward"><option value="">All wards</option></select>
+<select aria-label="Filter by category" class="lhd-control" id="lhd-search-category"><option value="">All categories</option></select>
+<select aria-label="Filter by status" class="lhd-control" id="lhd-search-status"><option value="">All statuses</option></select>
+</div>
+</form>
+<div aria-live="polite" class="lhd-result-title" id="lhd-search-count"></div>
+<div class="lhd-project-grid" id="lhd-search-results"></div>
+</section>
+<section class="panel" id="lhd-map">
+<div class="overline">Constituency map explorer</div>
+<h2>Projects by ward and category</h2>
+<p class="muted">Use the ward selector and category checkboxes below. Clicking a ward filters the projects for that ward.</p>
+<div class="lhd-filters">
+<select class="lhd-control" id="map-ward"><option value="">All wards</option></select>
+<select class="lhd-control" id="map-year"><option value="">All years 1999–2026</option></select>
+</div>
+<div class="lhd-checks" id="map-categories"></div>
+<div aria-label="Interactive ward selector" class="lhd-schematic" id="lhd-ward-schematic"></div>
+<div aria-live="polite" class="lhd-result-title" id="lhd-map-count"></div>
+<div class="lhd-project-grid" id="lhd-map-results"></div>
+</section>
+</div>
+<footer class="page-footer">
+<span>© 2025 LHD Legislative Scorecard • Built for institutional transparency</span>
+<span>Project search and ward filters</span>
+</footer>
+</main>
+</div>
+<script src="project-data.js"></script>
+<script src="explorer.js"></script>
 </body>
 </html>

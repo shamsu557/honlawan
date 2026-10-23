@@ -23,3 +23,11 @@ UPDATE NOTES (21 OCT 2026)
 - Some historical years and Tudun Makera ward assignment remain unspecified where source material did not establish them.
 - Do not use AI illustrations as proof of project completion.
 - GitHub Pages: upload files from inside honlawan-main/ to your repository root.
+
+
+UPDATE (23 OCT 2026):
+- Removed timeline.html and replaced its links/sidebar entries with empowerment.html across all site pages.
+- Added 19 supplied photographs and one video to assets/empowerment, with automatic mixed-media playback, dots, pause, skip, and video controls. Captions deliberately generic pending verified information. Edit empowerment-data.js to add accurate captions.
+- Added Ask Hon. Lawan page featuring question form, ideas, topics, local tracking, FAQ search, voice dictation when available, and a daily demo limit.
+- IMPORTANT: The question and idea forms are browser-local DEMOS, NOT online submissions to the office. A production backend/database, verified official WhatsApp number, moderation, privacy/consent, translations, and server-side limits must be installed before promising official submission or response.
+- Renamed visible Hon. Lawan Hussaini references to Hon. Lawan Hussain at the user’s direction. Verify the official spelling before publication.
